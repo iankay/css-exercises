@@ -11,17 +11,34 @@ body {
 
 .title {
   background: #e3f4ff;
+  border-left: white solid 8px;
+  border-right: white solid 8px;
+  border-top: white solid 8px;
+  border-bottom: white solid 8px;
+  margin: auto;
+  padding: 8px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  border-right: white solid 8px;
+  border-left: white solid 8px;
+  padding: 16px 8px;
+  margin: auto;
 }
 
 .button-container {
   background: #e3f4ff;
+  border: white solid 8px;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 8px 24px;
 }
