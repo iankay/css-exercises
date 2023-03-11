@@ -1,8 +1,14 @@
-.header  {
+/* css specificity rank 0010 */
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
+/* css specificity rank 0010 */
 .logo {
   font-size: 48px;
   font-weight: 900;
@@ -11,15 +17,21 @@
   padding: 4px 32px;
 }
 
+/* css specificity rank 0001 */
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 12px;
+  margin: 0px;
+  padding: 0px;
 }
 
+/* css specificity rank 0001 */
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
   text-decoration: none;
+  /* this removes the line under the links */
 }
